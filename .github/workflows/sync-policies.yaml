@@ -23,7 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - name: Sync policy from git to Open Policy Agent (OPA)
-        uses: OpsVerseIO/opa-policy-sync@0.1.0-ALPHA.3
+        uses: OpsVerseIO/opa-policy-sync@0.1.0
         with:
           opaServerUrl: "https://opa-opsverse.int.devopsnow.io"
           opaServerAuthToken: ${{ secrets.OPA_SERVER_AUTH_TOKEN }}
