@@ -1,4 +1,4 @@
-package reliability.include
+package reliability.rating
 
 import rego.v1
 

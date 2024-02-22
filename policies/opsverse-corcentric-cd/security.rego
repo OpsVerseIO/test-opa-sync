@@ -1,4 +1,4 @@
-package security.include
+package security.rating
 
 import rego.v1
 
